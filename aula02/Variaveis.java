@@ -8,6 +8,6 @@ public class Variaveis {
 
         int n1 = 1;
         String n2 = "2";
-        System.out.print(n1+n2); // (n1 + integer.parseInt(n2)); converte a string em tipo primitivo para permitir a soma
+        System.out.print(n1+n2); // (n1 + integer.parseInt(n2)); //converte a string em tipo primitivo para permitir a soma
     }
 }
