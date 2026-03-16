@@ -11,9 +11,9 @@ a recomendação é realizar a instalação via navegador a partir de distribuid
 #  Oque é JVM (java virtual machine)?
 a JVM (java virtual machine) permite que o computador rode e interprete codigos compilados .jar em uma maquina virtual.
 # Comandos utilizados para compilar o codigo na JVM
-é necessario entrar na pasta em que o seu arquivo está com o comando 'cd' e o diretorio da pasta.
+é necessario entrar na pasta em que o seu arquivo está com o comando 'cd .\diretorio da pasta' e o diretorio da pasta.
 
 se necessario fazer a conferencia da entrada na pasta digite o comando 'ls' que mostrará os arquivos na pasta selecionada.
 
-para compilar o codigo na JVM e roda-lo a partir do vs code é necessario executar o comando 'javac .\diretorio escolhido' no terminal, o que significa 'execute meu codigo e o compile'.
-para rodar o codigo execute o comando 'java .\diretorio escolhido' no terminal e seu codigo será executado!!!
+para compilar o codigo na JVM e roda-lo a partir do vs code é necessario executar o comando 'javac .\diretorio do arquivo escolhido' no terminal, o que significa 'execute meu codigo e o compile'.
+para rodar o codigo execute o comando 'java .\diretorio do arquivo escolhido' no terminal e seu codigo será executado!!!
