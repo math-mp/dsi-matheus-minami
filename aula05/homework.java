@@ -1,33 +1,60 @@
 public class homework{
     public static void main(String[] args){
+        //operadores de atribuição
 
-        int num1 = 10;
-        int num2 = 40;
+        //operador = atribui valor a uma variavel
+        int x = 5;
+        System.out.println(x);
 
-        //operador de soma
-        int soma = num1 + num2; //armazena o valor de num1 somados ao valor de num2 
-        System.out.println(soma); //retorno: 50
+        //operador += soma valor definido a uma variavel ja existente
+        x += 3;
+        System.out.println(x);
 
-        //operador de subtração
-        int sub =  num2 - num1; //armazena o valor de num2 subtraidos ao valor de num1
-        System.out.println(sub); //retorno: 30
+        //operador -= subtrai um valor definido a uma variavel ja existente
+        x -= 3
+        System.out.println(x);
+
+        //operador *= multiplica um valor definido a uma variavel ja existente
+        x *= 3
+        System.out.println(x);
+
+        //operador /= divide um valor definido a uma variavel ja existente
+        x /= 3
+        System.out.println(x);
+
+        //operador %= retorna o resto da divisão entre um valor definido a uma variavel ja existente
+        x %= 3 
+        System.out.println(x);
+
+        //operador *= multiplica um valor definido a uma variavel ja existente
+        x *= 3
+        System.out.println(x);
+
+        //operador &= realiza uma comparação and binaria entre os dois numeros resultando em um codigo binario onde somente se mantem 1 onde ambos são 1
+        x = 5;   // 0101
+        x &= 3;  // 0011
+        System.out.println(x);// 0001 = 1
+
+        //operador &= realiza uma comparação or binaria entre os dois numeros resultando em um codigo binario onde se qualquer elemento for 1 ele se mantem 1
+        x = 5;   // 0101
+        x |= 3;  // 0011
+        System.out.println(x);// 0111 = 7
         
-        //operador de divisão
-        int div =  num2 / num1; //armazena o valor de num2 divididos pelo valor de num1
-        System.out.println(div) //retorno: 4
+        //operador ^= realiza uma comparação xor(exclusive or) binaria entre os dois numeros resultando em um codigo binario onde 0 sobre 0 = 0, 1 sobre 1 = 0 e 1 sobre 0 ou vice versa = 1.
+        x = 5;   // 0101
+        x ^= 3;  // 0011
+        System.out.println(x);// 0110 = 6
 
-        //operador de multiplicação
-        int mult =  num1 * num2; //armazena o valor de num1 multiplicados pelo valor de num2 
-        System.out.println(mult); //retorno: 400
+        //operador >>= realiza uma comparação binaria entre os dois numeros onde os bits são deslocados do numero original para direita (shift) uma quantia de vezes definida
+        //pode se observar: a cada shift o numero é dividido por 2
+        x = 8; // 1000
+        x >>= 2 ; //2 shifts
+        System.out.println(x);// 0010 = 2
 
-        //operador de modulo ou resto de divisão
-        int sub =  num1 % num2; //armazena o valor do resto da divisão de num1 por num2 
-        System.out.println(sub); //retorno: 10
-        
-        //operador de incremento e decremento
-        int i = 5
-        i++; // adiciona 1 a variavel i portanto i vale 6
-        i--; // subtrai 1 a variavel i portanto i vale 4
-        
+        //operador <<= realiza uma comparação binaria entre os dois numeros onde os bits são deslocados do numero original para esquerda (shift) uma quantia de vezes definida
+        //pode se observar: a cada shift o numero é multiplicado por 2
+        x = 3; // 0011
+        x >>= 2 ; //2 shifts
+        System.out.println(x);// 1100 = 12
     }
 }
