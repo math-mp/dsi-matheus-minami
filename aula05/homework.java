@@ -54,7 +54,7 @@ public class homework{
         //operador <<= realiza uma comparação binaria entre os dois numeros onde os bits são deslocados do numero original para esquerda (shift) uma quantia de vezes definida
         //pode se observar: a cada shift o numero é multiplicado por 2
         x = 3; // 0011
-        x >>= 2 ; //2 shifts
+        x <<= 2 ; //2 shifts
         System.out.println(x);// 1100 = 12
     }
 }
