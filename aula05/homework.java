@@ -11,23 +11,23 @@ public class homework{
         System.out.println(x);
 
         //operador -= subtrai um valor definido a uma variavel ja existente
-        x -= 3
+        x -= 3;
         System.out.println(x);
 
         //operador *= multiplica um valor definido a uma variavel ja existente
-        x *= 3
+        x *= 3;
         System.out.println(x);
 
         //operador /= divide um valor definido a uma variavel ja existente
-        x /= 3
+        x /= 3;
         System.out.println(x);
 
         //operador %= retorna o resto da divisão entre um valor definido a uma variavel ja existente
-        x %= 3 
+        x %= 3 ;
         System.out.println(x);
 
         //operador *= multiplica um valor definido a uma variavel ja existente
-        x *= 3
+        x *= 3;
         System.out.println(x);
 
         //operador &= realiza uma comparação and binaria entre os dois numeros resultando em um codigo binario onde somente se mantem 1 onde ambos são 1

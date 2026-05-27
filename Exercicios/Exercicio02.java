@@ -1,29 +1,29 @@
 import java.util.Scanner;
 public class Exercicio02{
     public static void main(String[] args){
-        Scanner Scanner = new Scanner(System.in);
+        Scanner meuScanner = new Scanner(System.in);
 
             //inputs do usuario
             System.out.println("digite seu nome");
-            String nome =  Scanner.nextLine();
+            String nome =  meuScanner.nextLine();
 
             System.out.println("digite seu sexo - masc - fem");
-            String sexo =  Scanner.nextLine();
+            String sexo =  meuScanner.nextLine();
 
             System.out.println("digite quantas horas de trabalho foram feitas");
-            double horas =  Scanner.nextDouble();
+            double horas =  meuScanner.nextDouble();
 
             System.out.println("digite o valor recebido por hora");
-            double valorHora =  Scanner.nextDouble();
+            double valorHora =  meuScanner.nextDouble();
 
             System.out.println("tempo de trabalho em anos");
-            int tempoTrabalho =  Scanner.nextInt();
+            int tempoTrabalho =  meuScanner.nextInt();
 
             //salario bruto
             double salarioBruto = horas * valorHora;
 
             //somatoria bonus
-            double bonus = 0;
+            double bonus;
             if (sexo == "fem" && tempoTrabalho > 10){
                 bonus = salarioBruto * 0.25;
             }
@@ -34,6 +34,6 @@ public class Exercicio02{
                 bonus = 100.00;
             }
 
-            System.out.println("o seu salario final mais o bonus de natal é de: "+(salarioBruto+bonus));
+            System.out.println(nome +"o seu salario final mais o bonus de natal é de: "+(salarioBruto+bonus));
     }
 }

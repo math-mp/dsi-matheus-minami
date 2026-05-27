@@ -1,4 +1,4 @@
-public class decisao {
+public class logicos {
     public static void main(String[] args){
 
         //operadores logicos concatenam comparações e utilizam filtros para retornar 1 resultado

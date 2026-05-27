@@ -28,7 +28,7 @@ public class Exercicio01{
         double descontoInps = salarioBruto * 0.085;
         
         //calculo do IR
-        double impostoRenda = 0;
+        double impostoRenda;
         if (salarioBruto > 1500.00){
             impostoRenda = salarioBruto * 0.15;
         }

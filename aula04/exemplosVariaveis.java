@@ -12,7 +12,6 @@ public class exemplosVariaveis
         double f =2.84d;
         char g = 'a';
         boolean h = false;
-        char contador = 'a';
 
         //printando variavais na ordem apresentada
         String digolovesanne = "eu amo a anne linda e garotas japonesas";
