@@ -72,5 +72,7 @@ public class Exercicio03{
         else if (a==b || b==c || a==c){
             System.out.println("triangulo isoceles");
         }
+
+        scanner.close();
     }
 }

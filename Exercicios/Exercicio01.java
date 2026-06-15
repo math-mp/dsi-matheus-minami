@@ -60,5 +60,7 @@ public class Exercicio01{
         System.out.println(nome +" seu salario liquido é de: "+salarioLiquido+"R$\n"
         +"seu salario bruto é de: "+salarioBrutoFinal+"R$\n"+
         "o valor adicional de bonus é de: "+valorBonus+"R$\n");
+
+        Scanner.close();
     }
 }
