@@ -52,7 +52,7 @@ public class Exercicio01{
         }
         
         //calculo de salario liquido
-        double salarioLiquido = (salarioBruto - impostoRenda)+ adic + salarioFamilia;
+        double salarioLiquido = (salarioBruto - impostoRenda - descontoInps)+ adic + salarioFamilia;
         double salarioBrutoFinal = salarioBruto + adic + salarioFamilia;
         double valorBonus = adic + salarioFamilia;
 

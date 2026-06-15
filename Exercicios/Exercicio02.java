@@ -34,6 +34,6 @@ public class Exercicio02{
                 bonus = 100.00;
             }
 
-            System.out.println(nome +"o seu salario final mais o bonus de natal é de: "+(salarioBruto+bonus));
+            System.out.println(nome +" o seu salario final mais o bonus de natal é de: "+(salarioBruto+bonus));
     }
 }
