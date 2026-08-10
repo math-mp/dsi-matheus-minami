@@ -17,3 +17,11 @@ se necessario fazer a conferencia da entrada na pasta digite o comando 'ls' que 
 
 para compilar o codigo na JVM e roda-lo a partir do vs code é necessario executar o comando 'javac .\diretorio do arquivo escolhido' no terminal, o que significa 'execute meu codigo e o compile'.
 para rodar o codigo execute o comando 'java .\diretorio do arquivo escolhido' no terminal e seu codigo será executado!!!
+
+# Oque é um framework?
+um framework é um kit de ferramentas pré prontas para serem utilizados na criação e desenvolvimento de projeto facilitando diversas funções e configurações de projeto
+
+# Oque é Springboot?
+springboot é um framwork java que permite a criação e manutenção de projetos utilizando o ecossistema spring removendo a complexidade de configurações manuais e pré configuração de estrutura de projeto
+
+# Oque é maven
