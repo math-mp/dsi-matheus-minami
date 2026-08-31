@@ -1,3 +1,3 @@
-public record conversa(long id, String content) {
-    
-}
+package com.dsi.aula08;
+
+public record Conversa(long id, String content) { }

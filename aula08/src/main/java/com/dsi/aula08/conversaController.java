@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class conversaController {
+public class ConversaController {
 
-  private static final String template = "Hello, %s!";
+  private static final String template = "oi tudo bem?, %s!";
   private final AtomicLong counter = new AtomicLong();
 
   @GetMapping("/conversa")
-  public Greeting greeting(@RequestParam(defaultValue = "World") String name) {
-    return new Greeting(counter.incrementAndGet(), template.formatted(name));
+  public Conversa conversa(@RequestParam(defaultValue = "user") String name) {
+    return new Conversa(counter.incrementAndGet(), template.formatted(name));
   }
 }
